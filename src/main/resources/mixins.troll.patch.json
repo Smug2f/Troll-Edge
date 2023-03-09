@@ -1,0 +1,17 @@
+{
+    "required" : false,
+    "minVersion" : "0.7",
+    "compatibilityLevel" : "JAVA_8",
+    "package" : "me.luna.trollhack.mixins.patch",
+    "refmap" : "mixins.troll.refmap.json",
+    "client" : [
+        "MixinDisplay",
+        "MixinJsonUtils",
+        "baritone.MixinBaritoneSettings",
+        "gui.MixinGuiInventory",
+        "gui.MixinPacketThreadUtil",
+        "optifine.MixinConfig",
+        "player.MixinPlayerControllerMP",
+        "world.MixinWorld"
+    ]
+}
